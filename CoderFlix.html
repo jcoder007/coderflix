@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoderFlix - Streaming de Filmes e Séries</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #141414;
+            color: #ffffff;
+        }
+
+        header {
+            background-color: #e50914;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #222222;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+        }
+
+        .hero p {
+            font-size: 24px;
+            margin: 20px 0;
+        }
+
+        .btn {
+            background-color: #e50914;
+            color: #ffffff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        section {
+            padding: 40px 20px;
+        }
+
+        section h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        form label {
+            margin-bottom: 5px;
+        }
+
+        form input, form textarea {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #e50914;
+            border-radius: 5px;
+            background-color: #333333;
+            color: #ffffff;
+        }
+
+        form button {
+            background-color: #e50914;
+            color: #ffffff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #222222;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">CoderFlix</div>
+        <nav>
+            <ul>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#download">Baixar App</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Bem-vindo a CoderFlix!</h1>
+            <p>A sua plataforma de streaming favorita para filmes, séries e muito mais.</p>
+            <a href="#download" class="btn">Baixe nosso App</a>
+        </section>
+
+        <section id="produtos">
+            <h2>Nossos Produtos</h2>
+            <p>Desfrute de uma vasta biblioteca de conteúdos, incluindo:</p>
+            <ul>
+                <li>Séries exclusivas</li>
+                <li>Filmes aclamados pela crítica</li>
+                <li>Documentários envolventes</li>
+                <li>Canais de TV ao vivo</li>
+            </ul>
+        </section>
+
+        <section id="download">
+            <h2>Baixe nosso App</h2>
+            <p>Assista onde e quando quiser. Disponível para Android e iOS.</p>
+            <a href="https://drive.google.com/file/d/10SHBgPkjIirelw9hKc4WRpcQMsjAe7wN/view?usp=drive_link" class="btn" target="_blank" download>Baixar para Android</a>
+            <a href="#" class="btn">Baixar para iOS</a>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Tem alguma dúvida? Entre em contato conosco pelo WhatsApp!</p>
+            <a href="https://wa .me/SEU_NUMERO" class="btn" target="_blank">Fale Conosco</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 CoderFlix. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
